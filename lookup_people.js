@@ -42,19 +42,19 @@ console.log("Searching...")
 // })
 
 
-// var getPeopleByName = (names,cb) => { 
-// cb(names) 
-// }
+var getPeopleByName = (names,cb) => { 
+cb(names) 
+}
 
-// var printHello = (listOfNames) => {
-//   listOfNames.forEach(function(name) {
-//     console.log('Hello '+ name)
-//   })
-// }
+var printHello = (listOfNames) => {
+  listOfNames.forEach(function(name) {
+    console.log('Hello '+ name)
+  })
+}
 
-// var namesList = ["person1", "person2"]
+var namesList = ["person1", "person2"]
 
-// getPeopleByName(namesList,printHello)
+getPeopleByName(namesList,printHello)
 
 
 function getPersonByName(name,cb) {
